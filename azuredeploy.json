@@ -8,10 +8,6 @@
         "hostingPlanName": {
             "type": "string"
         },
-        "hostingEnvironment": {
-            "type": "string",
-            "defaultValue": ""
-        },
         "serverFarmResourceGroup": {
             "type": "string"
         },
@@ -47,13 +43,11 @@
         "databaseSku": {
             "type": "string",
             "allowedValues": [
-                "Free",
                 "Jupiter",
-                "Saturn",
-                "Venus",
-                "titan"
+                "Saturn"
+                
             ],
-            "defaultValue": "titan"
+            "defaultValue": "Saturn"
         }
     },
     "resources": [
